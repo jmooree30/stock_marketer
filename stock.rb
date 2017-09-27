@@ -6,6 +6,7 @@ def max_profit(prices)
   end.max_by do |buy, sell, profit|
     profit
   end
-puts "You bought for #{best[0]} and sold for #{best[1]} for a maximum profit of #{best[2]}!"
+  puts "You bought for #{best[0]} and sold for #{best[1]} for a maximum profit of #{best[2]}!"
 end
-  max_profit(a)
+
+max_profit(a)
